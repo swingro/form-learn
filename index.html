@@ -1,10 +1,77 @@
 <!DOCTYPE html>
 <html>
     <head>
-
-    </head>
-    <body>
         <meta charset="utf-8">
         <title>This is our title</title>
-    </body>
-</html>
+    </head>
+    <body>
+       <h1>This is our learning form</h1>
+        
+       <form method="post" action="http://">
+        <fieldset>
+            
+            <legend>Add user</legend>
+
+            <div>
+                <label for="first_name">First Name</label>
+                <input type="text" name="first_name" id="first_name">
+            </div>
+
+            <div>
+                <label for="last_nam">Last Name</label>
+                <input type="text" name="last_name" id="last_name">
+            </div>
+
+            <div>
+                <label for="email_adress">Email</label>
+                <input type="email" name="email" id="email_adress">
+            </div>
+
+            <div>
+                <label for="status">Status</label>
+                <select id="status" name="status">
+                    <option value="Student">Student</option>
+                    <option value="Teacher">Teacher</option>
+                    <option value="Guest">Guest</option>
+                </select>
+            
+            </div>
+
+          <div>
+              <p>Choose your favorite programming language</p>
+                 <label for="html">HTML</label>
+                 <input type="radio" name="lang" id="html"   value="html">
+                 <label for="css">CSS</label>
+                 <input type="radio" name="lang" id="css" value="css">
+                 <label for="javascript">JavaScript</label>
+                 <input type="radio" name="lang" id="javascript" value="javascript">
+          </div>
+         
+             <div>
+                <label for="comments">Comments</label>
+                <input type="textArea" name="comments" id="comments">
+            </div>
+
+            <div>
+                <label for="date">Current Date</label>
+                <input type="date" name="date" id="date">
+            </div>
+                
+            <div>
+                <label for="checkbox1">Sign up for newsletters</label>
+                <input type="checkbox" name="checkbox" id="checkbox1" value="signedUp" checked="checked">
+            </div>
+
+            <div>
+                <label for="checkbox2">Agree to terms and conditions</label>
+                <input type="checkbox" name="checkbox2" id="checkbox2" value="agreed" checked="checked">
+            </div>
+
+            <div>
+
+                <button type="submit">Submit</button>
+              </div>
+        </fieldset>
+       </form>
+       </body>
+</html> 
